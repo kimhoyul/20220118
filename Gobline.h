@@ -1,12 +1,8 @@
 #pragma once
-class Gobline
+#include "Monster.h"
+class Gobline : public Monster  // Monster의 모든기능을 주겠다.
 {
-public:												 //클래스 맨위에 무조건 적어줘야 함
-	int HP;
-	int MP;
-
-	void Move();
-	void Attack();
-	void Run();
+public :
+	int Weapon;
+	
 };
-
